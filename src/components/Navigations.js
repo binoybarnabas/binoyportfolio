@@ -1,15 +1,14 @@
 import React from 'react';
 
-class Navigations extends React.Component
-{
-    render(){
+
+    function Navigations(props){
         return (
             <div className="navBar">
-               <h2>{this.props.name}</h2>
+               <h2>{props.name}</h2>
             </div>
         );
 
     }
     
-}
+
 export default Navigations;

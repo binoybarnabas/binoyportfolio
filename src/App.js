@@ -1,16 +1,16 @@
 
 import './App.css';
-import Navigations from './components/Navigations';
-
+import Header from './components/Header.js';
+import Body from './components/Body.js';
 import React from 'react';
 
 function App() {
+  const nav_name = { 'name' : 'Binoy Barnabas'};
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1><i> <Navigations name="Binoy Barnabas"/></i></h1>
-      </header>
-    </div>
+    <>
+    <Header name={nav_name.name} />
+    <Body />
+    </>
   );
 }
 
