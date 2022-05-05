@@ -1,6 +1,10 @@
 .nav-bar
 {
-    background-color: #54FF8B ;
+    background-color: #B1B8C0;
+    opacity : 0.9;
+    position : sticky;
+    text-decoration-color : #131517;
+    text-decoration-thickness: 25%;
 }
 
 .image-responsive

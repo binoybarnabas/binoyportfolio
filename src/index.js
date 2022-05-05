@@ -5,11 +5,13 @@ import App from './App.js';
 import reportWebVitals from './reportWebVitals';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Background from './components/background.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
     <App/>
+    <Background/>
   </React.StrictMode>
 );
 

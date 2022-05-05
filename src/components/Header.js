@@ -7,14 +7,14 @@ class Header extends Component {
   render(props) {
 
     return (
-      <div className="Nav-bar">
-        <Navbar  variant="light" className="nav-bar">
+      <div class="nav-bar">
+        <Navbar  bg="dark" variant="dark" >
           <Container>
             <Navbar.Brand href="#home">{this.props.name}</Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#features">About</Nav.Link>
-              <Nav.Link href="#pricing">Blogs</Nav.Link>
+              <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#blogs">Blogs</Nav.Link>
             </Nav>
           </Container>
         </Navbar>
